@@ -35,3 +35,8 @@ func testSend2Way() {
 	fmt.Printf("Resultado de testSend2Way %t\n", res)
 
 }
+
+func main(){
+	testSend()
+	testSend2Way()
+}
