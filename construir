@@ -1,0 +1,15 @@
+#!/usr/bin/bash
+
+# Script para construir el binario de cliente y servidor con rpc
+# Hecho por: Leonardo Alfonso Hoet
+# 26/08/2020
+
+
+rpcgen -N calcular.x;
+gcc -c calcular_svc.c;
+gcc -c calcular_xdr.c;
+gcc -c cliente.c;
+gcc -c servidor.c;
+gcc calcular_clnt.c calcular_xdr.o cliente.o -o cliente;
+gcc calcular_svc.o calcular_xdr.o servidor.o -o servidor;
+
