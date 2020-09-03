@@ -3,5 +3,5 @@ Implementado en go
 
 Para correrlo (en linux):
 ```
-go run tp2.go communication.go
+go run main.go communication.go
 ```
