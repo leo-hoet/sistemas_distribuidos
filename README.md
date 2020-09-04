@@ -2,5 +2,5 @@
 Ejercicios para la catedra de sistemas distribuidos
 Hechos por:
 - Hoet, Leonado Alfonso
-- Klug, Ezequiel
+- Klug, Ezequiel Federico
 - Ponsiano, María Victoria
