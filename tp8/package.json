@@ -1,0 +1,17 @@
+{
+  "name": "app-hbs",
+  "version": "1.0.0",
+  "description": "NodeJS con HBS",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "handlebars": "^4.7.6",
+    "hbs": "^4.1.1",
+    "nodemon": "^2.0.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "nodemon": "nodemon server.js"
+  }
+}
